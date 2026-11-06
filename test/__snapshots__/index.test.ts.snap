@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`basic 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+]
+`;
+
+exports[`import 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+]
+`;
+
+exports[`json5 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+]
+`;
+
+exports[`locale attr 1`] = `
+Array [
+  "{\\"ja\\":{\\"hello\\":\\"こんにちは、世界！\\"}}",
+]
+`;
+
+exports[`locale attr and basic 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+  "{\\"ja\\":{\\"hello\\":\\"こんにちは、世界！\\"}}",
+]
+`;
+
+exports[`locale attr and import 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+]
+`;
+
+exports[`multiple 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+  "{\\"ja\\":{\\"hello\\":\\"こんにちは、世界！\\"}}",
+]
+`;
+
+exports[`special characters 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello\\\\ngreat\\\\t\\\\\\"world\\\\\\"\\"}}",
+]
+`;
+
+exports[`yaml 1`] = `
+Array [
+  "{\\"en\\":{\\"hello\\":\\"hello world!\\"}}",
+  "{\\"ja\\":{\\"hello\\":\\"こんにちは、世界！\\"}}",
+]
+`;
